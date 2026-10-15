@@ -1,9 +1,11 @@
 # Agentic-Code-Eval-Sandbox: Containerized Execution Sandbox for AI Code Benchmark Evals
 
 [![CI](https://github.com/Mr-OWO/agentic-code-eval-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/Mr-OWO/agentic-code-eval-sandbox/actions)
+[![Release](https://img.shields.io/github/v/release/Mr-OWO/agentic-code-eval-sandbox?color=brightgreen)](https://github.com/Mr-OWO/agentic-code-eval-sandbox/releases)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688.svg)](https://fastapi.tiangolo.com/)
 [![Docker](https://img.shields.io/badge/Docker-Isolation-2496ED.svg)](https://www.docker.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A lightweight, high-security containerized execution sandbox designed for evaluating autonomous coding agents, LLM code generation benchmarks (HumanEval, MBPP, SWE-bench), and synthetic tool-use routines. Enforces strict process resource ceilings (0.5 CPU, 256MB RAM), ephemeral filesystem destruction, and sub-second hard timeouts with zero host exposure.
 
