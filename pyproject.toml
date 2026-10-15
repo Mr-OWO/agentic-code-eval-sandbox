@@ -4,9 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agentic-code-eval-sandbox"
-version = "0.1.0"
+version = "1.0.0"
 description = "Containerized Execution Sandbox for AI Agent Code Benchmark Evals"
 readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.10"
 authors = [
     { name = "Wisdom Ogechi Owabor", email = "contact@wisdomowabor.online" }
