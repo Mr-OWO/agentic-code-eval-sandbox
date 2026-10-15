@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  eval-sandbox:
+    build: .
+    container_name: agentic-code-eval-sandbox
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+    restart: unless-stopped
